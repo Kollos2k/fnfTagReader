@@ -5,4 +5,4 @@ I have no information about the licenze for the TagReader.dll from RaceResult. I
 
 The main platform for RaceResult is Windows 10. Such as this reader. The TagReader.dll is only available as a 32bit Windows library.
 
-To compile the source you need QT 5.14. with the gcc compiler.
+To compile the source you need QT 5.14. with the gcc compiler. 

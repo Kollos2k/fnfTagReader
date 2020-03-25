@@ -3,7 +3,7 @@ Install Qt as Opensource and copy files from your install folder %Qt%/5.14.1/min
 
 needed Strukture from Qt:
 <br/><br/>
-iconengines<br/>
+<img src="readme_img/1_050.png"/>iconengines<br/>
   .qsvgicon.dll<br/>
 imageformats<br/>
   .qgif.dll<br/>

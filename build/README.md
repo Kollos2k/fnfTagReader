@@ -3,35 +3,39 @@ Install Qt as Opensource and copy files from your install folder %Qt%/5.14.1/min
 
 needed Strukture from Qt:
 <br/><br/>
-<img src="readme_img/1_050.png"/>iconengines<br/>
-  .qsvgicon.dll<br/>
-imageformats<br/>
-  .qgif.dll<br/>
-  .qicns.dll<br/>
-  .qico.dll<br/>
-  .qjpeg.dll<br/>
-  .qsvg.dll<br/>
-  .qtga.dll<br/>
-  .qtiff.dll<br/>
-  .qwbmp.dll<br/>
-  .qwbmp.dll<br/>
-  .qwebp.dll<br/>
-platforms<br/>
-  .qwindows.dll<br/>
-sqldrivers<br/>
-  .qsqlite.dll<br/>
-  .qsqlobdc.dll<br/>
-  .qsqlqsql.dll<br/>
-styles<br/>
-  .qwindowsvistastyle.dll<br/>
-translations<br/>
-  .qt_en.qm<br/>
-  .qt_de_qm<br/>
-libgcc_s_dw2-1.dll<br/>
-libstdc++-6.dll<br/>
-libwinpthread-1.dll<br/>
-Qt5Core.dll<br/>
-Qt5Gui.dll<br/>
-Qt5PrintSupport.dll<br/>
-Qt5Sql.dll<br/>
-Qt5Widgets.dll<br/>
+<img src="readme_img/1_050.png"/> iconengines<br/>
+  <img src="readme_img/1_041.png" style="margin-left:15px;"/> qsvgicon.dll<br/>
+<img src="readme_img/1_050.png"/> imageformats<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qgif.dll<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qicns.dll<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qico.dll<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qjpeg.dll<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qsvg.dll<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qtga.dll<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qtiff.dll<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qwbmp.dll<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qwbmp.dll<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qwebp.dll<br/>
+<img src="readme_img/1_050.png"/> platforms<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qwindows.dll<br/>
+<img src="readme_img/1_050.png"/> sqldrivers<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qsqlite.dll<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qsqlobdc.dll<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qsqlqsql.dll<br/>
+<img src="readme_img/1_050.png"/> styles<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qwindowsvistastyle.dll<br/>
+<img src="readme_img/1_050.png"/> translations<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qt_en.qm<br/>
+  <img src="readme_img/1_041.png" style="margin-left:25px;"/> qt_de_qm<br/>
+<img src="readme_img/1_041.png"/> libgcc_s_dw2-1.dll<br/>
+<img src="readme_img/1_041.png"/> libstdc++-6.dll<br/>
+<img src="readme_img/1_041.png"/> libwinpthread-1.dll<br/>
+<img src="readme_img/1_041.png"/> Qt5Core.dll<br/>
+<img src="readme_img/1_041.png"/> Qt5Gui.dll<br/>
+<img src="readme_img/1_041.png"/> Qt5PrintSupport.dll<br/>
+<img src="readme_img/1_041.png"/> Qt5Sql.dll<br/>
+<img src="readme_img/1_041.png"/> Qt5Widgets.dll<br/>
+<br/>
+<img src="readme_img/1_041.png"/> EasyPOD.dll (from RaceResult)<br/>
+<img src="readme_img/1_041.png"/> EasyPOD.lib (from RaceResult)<br/>
+<img src="readme_img/1_041.png"/> tagReader.dll (from RaceResult)<br/>

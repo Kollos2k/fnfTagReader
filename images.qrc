@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="TagReaderLogo">TagReader.png</file>
+        <file alias="Qt Logo">qt-creator.jpg</file>
+    </qresource>
+</RCC>

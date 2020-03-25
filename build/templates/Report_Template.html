@@ -1,0 +1,45 @@
+<html>
+<style type="text/css">
+	.table_style td {padding:2px;}
+	.table_style th {padding:2px;}
+</style>
+<body>
+<table width="100%"><tr><td><img src="templates/Foerderverein_thumb.png" width="100"/></td><td><h3>Report f&uuml;r: %EVENTTITLE%</h3></td><td style="text-align:right;">%NOW%</td></tr></table>
+<br/>
+%BLOCK_WITHOUTKNOWN_BEGIN%
+	Es wurden keine Startnummerzuordnung eingelesen. Die Auflistung enthält daher nur die gesehenen Tags. Bitte importieren Sie bekannte Bibs mit Startnummer Zuordnung.<br/><br/>
+	Es wurden: %SEEN_TAGS_ALL_SIZE% Tags gelesen.
+	<br/>
+	<table>
+	<tr><th>Scanned Tags</th></tr>
+	%LOOP_READED_TAGS_BEGIN%
+		<tr><td>%CURTAG%</td></tr>
+	%LOOP_READED_TAGS_END%
+	</table>
+%BLOCK_WITHOUTKNOWN_END%
+%BLOCK_WITHKNOWN_BEGIN%
+	<table class="table_style">
+	<tr><td><strong>Bekannte Tags: </strong></td><td> %KNOWN_TAGS_SIZE%</td></tr>
+	<tr><td><strong>Nicht genutzte Tags: </strong></td><td> %UNUSED_SNR%</td></tr>
+	<tr><td><strong>Nicht genutzte Tags Anzahl: </strong></td><td> %UNUSED_TAGS_SIZE%</td></tr>
+	<tr><td><strong>Genutzte Tags Anzahl: </strong></td><td> %USED_TAGS_SIZE%</td></tr>
+	<tr><td><strong>Gesehene Tags Anzahl: </strong></td><td> %USED_SEEN_TAGS_SIZE%</td></tr>
+	<tr><td><strong>Nicht gesehene Tags Anzahl: </strong></td><td> %USED_NOTSEEN_TAGS_SIZE%</td></tr>
+	</table>
+	<br/><br/>
+	Nicht gesehene und damit noch offene Tags:
+	<br/><br/>
+	<table style="border-width:1px;border-style:solid;" class="table_style"><tr><th>Startnummer </th><th> Tag/Bib </th><th> Name</th></tr>
+	%LOOP_NOTSEEN_TAGS_BEGIN%
+		<tr><td>%CURSNR% </td><td> %CURTAG% </td><td> %CURNAME%</td></tr>
+	%LOOP_NOTSEEN_TAGS_END%
+	%NO_NOTSEEN_TAGS_BEGIN%
+		<tr><td colspan="3">Es wurden alle Tags eingelesen</td></tr>
+	%NO_NOTSEEN_TAGS_END%
+	</table>
+%BLOCK_WITHKNOWN_END%
+<br/>
+<br/>
+Jeder nicht zurückgegebene Tag muss leider in Rechnung gestellt werden.
+</body>
+</html>
